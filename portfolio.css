@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  font-family: "Poppins", sans-serif;
+}
+
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+}
+
+.mylogo {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #6070ff;
+  list-style: none;
+}
+
+.nav__links,
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+
+.nav__links .line {
+  height: 0.2rem;
+  width: 0.1rem;
+  background-color: #6070ff;
+  margin: 0.2rem;
+}
+
+.backimage {
+  background-image: url("./images/header-shapes_mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 620px;
+}
