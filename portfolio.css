@@ -99,3 +99,120 @@ li {
 .social-icons i {
   color: #505f79;
 }
+
+.card {
+  height: 496px;
+  width: 1156px;
+  display: flex;
+  background: #fff;
+  border: 1px solid #def1e6;
+  border-radius: 24px;
+  margin-left: 142px;
+  margin-right: 142px;
+  margin-top: 142px;
+}
+
+.cardimage {
+  width: 544px;
+  height: 448px;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.carditemwrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.canopyitemwrap {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  margin-top: -75px;
+}
+
+.cardheading {
+  padding: 46px;
+  color: #091e42;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.cardcanopy {
+  color: #344563;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.dot {
+  color: #c1c7d0;
+  font-size: 1.5rem;
+}
+
+.cardlistitem {
+  color: #6b778c;
+  line-height: 24px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.cardabout {
+  color: #344563;
+  padding: 46px;
+  margin-top: -40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cardtechnology {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin-top: -40px;
+}
+
+.technology {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  color: #6070ff;
+  text-align: center;
+  margin: 5px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.btnseeproject {
+  font-size: 17px;
+  line-height: 24px;
+  width: auto;
+  height: 48px;
+  align-self: flex-start;
+  padding: 12px;
+  margin-top: 1px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #396df2;
+  font-weight: 500;
+  background: #fff;
+}
+
+.btnseeproject:hover {
+  background-color: #84a0e6;
+  color: #fff;
+}
+
+.btnseeproject:active {
+  background-color: #2d66f6;
+  color: #fff;
+}
+
+.btnseeproject:disabled {
+  background-color: #fff;
+  color: #000;
+}
