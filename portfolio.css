@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  max-width: 1440px;
+  margin: auto;
   padding: 0;
   background: #e6e2e2;
   font-family: "Poppins", sans-serif;
@@ -51,12 +52,14 @@ li {
   background-image: url("./images/Header\ bg@2x.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 100%;
   top: 1px;
 }
 
 .content {
   margin-left: 260px;
   margin-right: 260px;
+  padding-top: 200px;
 }
 
 .welcometext {
@@ -73,4 +76,26 @@ li {
   font-size: 20px;
   line-height: 28px;
   justify-content: space-between;
+}
+
+.letsconnect {
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: -60px;
+  padding-bottom: 150px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  padding-right: -10px;
+}
+
+.social-icons i {
+  color: #505f79;
 }
