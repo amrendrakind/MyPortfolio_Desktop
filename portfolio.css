@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fdfdfd;
+  background: #e6e2e2;
   font-family: "Poppins", sans-serif;
 }
 
@@ -41,9 +41,36 @@ li {
   align-items: center;
 }
 
-.backimage {
-  background-image: url("./images/header-shapes_mobile.png");
+.landingpagecard {
+  min-height: 916px;
+  border-radius: 0 0 0 100px;
+  background-color: #fff;
+}
+
+.backgroundimage {
+  background-image: url("./images/Header\ bg@2x.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 620px;
+  top: 1px;
+}
+
+.content {
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.welcometext {
+  letter-spacing: 0.37px;
+  color: #091e42;
+  font-size: 48px;
+  font-weight: bold;
+  height: 122px;
+  line-height: 60px;
+}
+
+.welcome-para-1 {
+  color: #344563;
+  font-size: 20px;
+  line-height: 28px;
+  justify-content: space-between;
 }
