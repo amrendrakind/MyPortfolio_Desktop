@@ -118,6 +118,7 @@ li {
   padding-left: 24px;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-right: 22px;
 }
 
 .carditemwrapper {
@@ -128,7 +129,7 @@ li {
 .canopyitemwrap {
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
+  padding-left: 45px;
   margin-top: -75px;
 }
 
@@ -200,6 +201,7 @@ li {
   color: #396df2;
   font-weight: 500;
   background: #fff;
+  margin-left: 45px;
 }
 
 .btnseeproject:hover {
